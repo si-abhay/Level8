@@ -1,21 +1,5 @@
 
 #------------------------------------QUESTION 1---------------------------------
-def fact(n):
-  if n == 0 or n == 1:
-    return 1;
-  
-  return n*fact(n-1);
-
-n = int(input("Enter the value of n "));
-x = int(input("Enter the value of x "));
-
-sum = 0;
-for i in range(0,n+1):
-  fac = fact(i);
-  power = pow(x,i);
-  sum += power/fac;
-
-print(sum);
 
 
 def checkPrime(n):
@@ -32,7 +16,7 @@ randomList = []
 for i in range(0,100):
   x = ran.randint(100,900)
   randomList.append(x)
-
+// Flag is shoonya
 print
 odd = 0
 even = 0
